@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showQuestion:(id)sender {
+    [self.questionLabel setText:@"What is 7+7"];
+}
+
+- (IBAction)showAnswer:(id)sender {
+}
 @end
