@@ -31,5 +31,6 @@
 }
 
 - (IBAction)showAnswer:(id)sender {
+    [self.answerLabel setText:@"14"];
 }
 @end
